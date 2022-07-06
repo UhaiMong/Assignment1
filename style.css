@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+}
+
+
+.top-banner {
+    background-image: url(images/donation6.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    height: auto;
+}
+
+.top-header {
+    height: 400px;
+}
+
+.outside {
+    width: 100%;
+    height: auto;
+    background-color: #e8dcdc;
+
+}
+
+.inside {
+    width: 88%;
+    height: auto;
+    margin: 0 auto;
+
+}
+
+
+h1 {
+    align-items: center;
+    color: white;
+    font-size: 50px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+h2 {
+    align-items: center;
+    color: black;
+    font-size: 30px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.top-header p {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.btn {
+    background: #FF5959;
+    height: 40px;
+    width: 120px;
+    border: none;
+    margin-top: 40px;
+    border-radius: 5px;
+    margin-left: 40%;
+
+}
+
+.btn a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 17px;
+}
+
+.donation {
+    display: flex;
+}
+
+.donation-project {
+    margin: 5px;
+    padding: 7px;
+    margin-top: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+
+#project1 {
+    background-color: aquamarine;
+}
+
+#project2 {
+    background-color: rgb(170, 173, 145);
+}
+
+#project3 {
+    background-color: rgb(220, 229, 147);
+}
+
+.h2all {
+    color: black;
+}
+
+.cardSection {
+    display: flex;
+    margin: 0 auto;
+}
+
+.card-item {
+    width: 90px;
+    height: 90px;
+    background: #e8dcdc;
+    margin: 10px;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#fivehundred {
+    border: 2px solid red;
+    background: #d6a7a7;
+}
+
+#fivehundred p {
+    color: red;
+}
+
+form {
+    width: 500px;
+    background: rgb(228, 228, 143);
+    height: 100px;
+    justify-items: center;
+    margin: 0 auto;
+
+}
+
+input {
+    align-items: center;
+    margin-top: 30px;
+}
+
+.footer {
+    background: rgb(28, 15, 15);
+    height: 100px;
+}
+
+.footerpart {
+    margin: o auto;
+    align-items: center;
+}
+
+.footerpart h3 {
+    color: rgb(185, 58, 58);
+    left: 50%;
+    font-style: italic;
+}
+
+.footerpart p {
+    color: #e8dcdc;
+}
